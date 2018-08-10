@@ -1,0 +1,122 @@
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+body {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-image: url("../images/crossword.png"); }
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.edit {
+  display: none; }
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+  white-space: normal; }
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea,
+.text-box {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 7px 6px 13px -6px #c9c9c9;
+  -moz-box-shadow: 7px 6px 13px -6px #c9c9c9;
+  box-shadow: 6px 6px 7px -6px #c9c9c9;
+  padding-left: 10px; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  border-top: 1px solid lightgray; }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white; }
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-weight: 100; }
+
+tr:first-child th {
+  font-weight: 600; }
+
+.symptomsTable th {
+  width: 70px; }
+
+.centerContent {
+  max-width: 550px;
+  margin: 0 auto; }
+
+label {
+  font-size: 17px; }
+
+.row {
+  margin-bottom: 20px; }
+
+.btn {
+  -webkit-box-shadow: 7px 6px 13px -4px #c9c9c9;
+  -moz-box-shadow: 7px 6px 13px -4px #c9c9c9;
+  box-shadow: 6px 6px 7px -6px #c9c9c9;
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: bold; }
+
+ul.nav.navbar-nav.navbar-right > li {
+  display: inline-block; }
+
+.navbar {
+  background-color: white; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */ }
+
+#SearchString {
+  width: 20%; }
+
+.searchbutton {
+  width: auto; }
+
+.errorMessage {
+  color: red;
+  font-style: italic; }
+
+.hiding {
+  display: none; }
+
+#numWeeksInput {
+  width: 40px; }
+
+.numWeeksButton {
+  height: 30px;
+  padding-top: 0px; }
+
+#numWeeksEditLink {
+  padding-left: 5px; }
